@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.main {
+    background-image:
+        linear-gradient(to top,
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)), url('bnk3.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #7777f9;
+    color: white;
+}
+
+marquee {
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
